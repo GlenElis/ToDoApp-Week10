@@ -11,7 +11,7 @@ document.getElementById('add').addEventListener('click', () => {
     row.insertCell(3).innerHTML = document.getElementById('new-end-date').value;
     let actions = row.insertCell(4);
     actions.appendChild(createDeleteButton(id++));
-    document.getElementById('new-o-do').value = '';
+    document.getElementById('new-to-do').value = '';
 });
 
 function createDeleteButton(id) {
